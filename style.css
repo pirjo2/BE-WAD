@@ -15,10 +15,18 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
 .logo {
     margin: 0;
     font-size: 1.1em;
     padding-left: 0.5em;
+    width: 3em;
+    height: 3em;
 }
 
 .header {
@@ -56,3 +64,32 @@ ul {
     color: #092747;
     border-radius: 15%;
 }
+
+.posts {
+    background-color:lightblue;
+    border-radius: 0.2em;
+    padding: 8px 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    box-shadow: none;
+}
+
+.post-header {
+    padding-top: 0.3em;
+    float: right;
+}
+
+.small-logo {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+@media (max-width: 800px) {
+    .posts {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
+    }
+}
+
