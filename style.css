@@ -40,16 +40,13 @@ img {
 
 .header-list {
     float: right;
+    margin-top: 1em;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.header-list {
-    margin-top: 1em;
 }
 
 .header-list a {
@@ -73,17 +70,50 @@ ul {
     margin-right: 10em;
     margin-top: 2em;
     box-shadow: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .post-header {
+    display: block;
+    font-size: 1.2em;
+}
+
+.post-date {
     padding-top: 0.3em;
     float: right;
+    display: block;
+}
+
+.post-content {
+    font-size: 1.em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.post-title {
+    padding-top: 0.3em;
+    float: left;
+    display: block;
 }
 
 .small-logo {
     height: 1.5em;
     width: 1.5em;
+    padding: 2px;
 }
+
+.like-button {
+    height: 3em;
+    width: 3em;
+    padding: 2px;
+    cursor: pointer;
+    user-select: none;
+    float: left;
+    display: block;
+}
+
 
 @media (max-width: 800px) {
     .posts {
