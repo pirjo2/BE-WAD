@@ -92,4 +92,37 @@ ul {
         margin-top: 1em;
     }
 }
-
+.login {
+    background-color:lightblue;
+    border-radius: 0.2em;
+    padding: 8px 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    text-align: center;
+    box-shadow: none;
+}
+.login h1 {
+    color: black;
+    margin-bottom: 2em;
+}
+#or {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login a {
+    color: black;
+}
+.login a:hover {
+    background-color: #7ebeb6;
+    color: #092747;
+    border-radius: 15%;
+}
+.ylatekst > a {
+    color: gray;
+}
+.login p {
+    color: black;
+}
+br + a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
