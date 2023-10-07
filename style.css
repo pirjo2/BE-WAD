@@ -156,3 +156,54 @@ ul {
 br + a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.addPostbox {
+    background-color:lightblue;
+    border-radius: 0.2em;
+    padding: 2em 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 70%;
+
+}
+.addPost {
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+    row-gap: 2em;
+    margin: 0 auto;
+}
+.text-area {
+    width: 100%;
+    height: 40%;
+    flex: 1; 
+    padding: 10px;
+    resize: vertical; 
+}
+.addpostfooter{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .addPostBox {
+        margin: 1em auto;
+    }
+}
+label ~ button {
+    background-color: #646174;
+    color: white;
+    border: 1px solid black}
+
+#createpost{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black
+}
+

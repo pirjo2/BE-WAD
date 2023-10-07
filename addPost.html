@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addPost</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="#"><img src="profile.png" width="50" height="50" alt="My profile"></a>
+        <ul class="header-list">
+            <a href="index.html">Home</a>
+        </ul>
+    </header>
+
+    <div class="addPostbox">
+        <div class = "addPost">
+        <section class="postbody">
+            <aside><label class = "postlabel" for="textfield">Post body</label></aside>
+            <textarea id="textfield" class="text-area" placeholder="textarea"></textarea><br>
+        </section>
+        <section class="selectfile">
+            <label for="choosefile">Select file</label>
+            <button id="choosefile">Choose file</button><br>
+        </section>
+        <footer class="addpostfooter">
+            <button onclick=redirect() id = "createpost">Create post</button><br>
+        </footer>
+        </div>
+
+    </div>
+</body>
+</html>
