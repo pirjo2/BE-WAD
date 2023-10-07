@@ -12,3 +12,7 @@ section.addEventListener('input', function() {
         button.disabled = false;
     }
 })
+
+function redirect(){
+    window.location.href = "index.html";
+}
