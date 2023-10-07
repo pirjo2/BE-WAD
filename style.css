@@ -69,6 +69,7 @@ ul {
     margin-left: 10em;
     margin-right: 10em;
     margin-top: 2em;
+    margin-bottom: 2em;
     box-shadow: none;
     display: flex;
     flex-direction: column;
@@ -92,7 +93,7 @@ ul {
     width: 100%;
 }
 
-.post-title {
+#post-title {
     padding-top: 0.3em;
     float: left;
     display: block;
@@ -112,6 +113,12 @@ ul {
     user-select: none;
     float: left;
     display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    background-color: #a2ccea;
 }
 
 
