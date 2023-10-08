@@ -198,13 +198,13 @@ label ~ button {
 
 @media (max-width: 800px) {
     .posts {
-        margin: 1em auto;
+        margin: 1em;
     }
     .addPostBox {
-        margin: 1em auto;
+        margin: 1em;
     }
     .login {
-        margin: 1em auto;
+        margin: 1em ;
     }
 }
 
