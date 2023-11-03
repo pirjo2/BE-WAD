@@ -1,0 +1,3 @@
+Team number - BE
+Names - Pirjo Jõelo, Karl Tomasson, Kelli Gagarina
+Git link: https://github.com/pirjo2/BE-WAD

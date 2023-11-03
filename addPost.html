@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>addPost</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>  
@@ -17,20 +17,17 @@
     </header>
 
     <div class="addPostbox">
-        <div class = "addPost">
-        <section class="postbody">
+        <section>
             <aside><label class = "postlabel" for="textfield">Post body</label></aside>
             <textarea id="textfield" class="text-area" placeholder="textarea"></textarea><br>
         </section>
-        <section class="selectfile">
+        <section>
             <label for="choosefile">Select file</label>
             <button id="choosefile">Choose file</button><br>
         </section>
-        <footer class="addpostfooter">
+        <section class="addpostfooter">
             <button onclick=redirect() id = "createpost">Create post</button><br>
-        </footer>
-        </div>
-
+        </section>
     </div>
 </body>
 </html>
