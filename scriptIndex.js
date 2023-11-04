@@ -53,7 +53,8 @@ window.onload = function() {
             .finally(() => {
                 let footer = document.createElement("footer");
                 date = new Date().toLocaleString()
-                footer.innerText = date;
+                /*footer.innerText = date;*/
+                footer.innerText = "© 2023 Copywrong: Möuw";
                 document.body.appendChild(footer);
                 })
 }
