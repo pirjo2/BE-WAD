@@ -18,7 +18,8 @@ window.onload = function() {
                     postheader.className = "post-header";
 
                     let date = document.createElement("a");
-                    let profilepic = document.createElement("a");
+                    let author = document.createElement("a");
+                    let profilepic = document.createElement("img");
                     let likebutton = document.createElement("img");
                     likebutton.src = "like-dark.png";
                     likebutton.addEventListener("click", function() {//function that helps to manage like button
@@ -32,23 +33,26 @@ window.onload = function() {
                     let postText = document.createElement("a");
 
                     date.className = "post-date";
-                    profilepic.className = "small-logo";
+                    profilepic.className = "post-logo"
+                    author.className = "post-author";
                     likebutton.className = "like-button";
                     postpic.className = "post-content";
                     postText.className = "post-title";
 
                    /* date.innerText = json.record[i].date;// use these if reading from URL
-                    profilepic.innerText = json.record[i].author;
+                    author.innerText = json.record[i].author;
                     postpic.innerText = json.record[i].postImage;
                     postText.innerText = json.record[i].postText;*/
 
                     date.innerText = json[i].date;
-                    profilepic.innerText = json[i].author;
+                    profilepic.src = json[i].profilepic;
+                    author.innerText = json[i].author;
                     postpic.src = json[i].postImage;
                     postText.innerText = json[i].postText;
 
                     postheader.appendChild(date);
                     postheader.appendChild(profilepic);
+                    postheader.appendChild(author);
                     div.appendChild(postheader);
                     div.appendChild(postpic);
                     div.appendChild(postText);

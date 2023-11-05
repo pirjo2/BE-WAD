@@ -77,6 +77,7 @@ ul {
 .post-header {
     display: block;
     font-size: 1.2em;
+    margin-bottom: 25px;
 }
 
 .post-date {
@@ -98,16 +99,23 @@ ul {
     display: block;
 }
 
-.small-logo {
+.post-logo {
+    height: 2.5em;
+    width: 2.5em;
+    border: solid 5px grey;
+    border-radius: 0.3em;
+}
+
+.post-author {
     height: 1.5em;
     width: 1.5em;
-    padding: 2px;
+    padding-left: 10px;
 }
 
 .like-button {
     height: 3em;
     width: 3em;
-    padding: 2px;
+    padding: 12px 2px 2px 2px;
     cursor: pointer;
     user-select: none;
     float: left;

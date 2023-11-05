@@ -4,7 +4,7 @@
     "date": "29.10.2023",
     "postText": "Yesss friends forever",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   },
   {
@@ -12,7 +12,7 @@
     "date": "28.10.2023",
     "postText": "Okey",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "mary.png",
     "author": "Mary567"
   },
   {
@@ -20,7 +20,7 @@
     "date": "27.10.2023",
     "postText": "Let's be friends then",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   },
   {
@@ -28,7 +28,7 @@
     "date": "26.10.2023",
     "postText": "I love your cat",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "mary.png",
     "author": "Mary567"
   },
   {
@@ -36,7 +36,7 @@
     "date": "25.10.2023",
     "postText": "This is my grumpy cat",
     "postImage": "cat.png",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   },
   {
@@ -44,7 +44,7 @@
     "date": "24.10.2023",
     "postText": "Wait a minute",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   },
   {
@@ -52,7 +52,7 @@
     "date": "23.10.2023",
     "postText": "Send some memes or pictures\nFeeling bored",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "mary.png",
     "author": "Mary567"
   },
   {
@@ -60,7 +60,7 @@
     "date": "22.10.2023",
     "postText": "YOLO",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "mary.png",
     "author": "Mary567"
   },
   {
@@ -68,7 +68,7 @@
     "date": "21.10.2023",
     "postText": "Found my cat!! She was under the sink\nFeeling happy",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   },
   {
@@ -76,7 +76,7 @@
     "date": "20.10.2023",
     "postText": "Has anybody seen my cat :[",
     "postImage": "",
-    "like": "*like*",
+    "profilepic" : "joonas.png",
     "author": "Joonas123"
   }
 ]
