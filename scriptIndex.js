@@ -2,15 +2,14 @@
 //Json storage https://api.jsonbin.io/v3/b/654567f154105e766fcb1492
 
 window.onload = function() {
-    let filepath = '../myjson.json'; //--> saab lugeda failist / JSON file filepath
-    //kui lugeda failist tuleb json.record kasutada lihtsalt json!!!!!
-    //let filepath = 'https://api.jsonbin.io/v3/b/654567f154105e766fcb1492' // URL filepath
+    let filepath = '../myjson.json'; // JSON file filepath
+    //let filepath = 'https://api.jsonbin.io/v3/b/65479ac10574da7622c25a56' // URL filepath
             fetch(filepath)
             .then((response) => response.json())
             .then(json => {
                 console.log(json);
-                //for (let i = 0; i < json.record.length; i++){ //muuta lihtsalt json-iks kui loed failist! / for URL filepath
-                for (let i = 0; i < json.length; i++){
+                //for (let i = 0; i < json.record.length; i++){ // for URL filepath
+                for (let i = 0; i < json.length; i++){ // for file filepath
                     let div = document.createElement("div");
                     let postheader = document.createElement("header");
 
@@ -39,12 +38,13 @@ window.onload = function() {
                     postpic.className = "post-content";
                     postText.className = "post-title";
 
-                   /* date.innerText = json.record[i].date;// use these if reading from URL
+                    /**date.innerText = json.record[i].date;// use these if reading from URL
+                    profilepic.src = json.record[i].profilepic;
                     author.innerText = json.record[i].author;
-                    postpic.innerText = json.record[i].postImage;
+                    postpic.src = json.record[i].postImage;
                     postText.innerText = json.record[i].postText;*/
 
-                    date.innerText = json[i].date;
+                    date.innerText = json[i].date;// use these if reading from file
                     profilepic.src = json[i].profilepic;
                     author.innerText = json[i].author;
                     postpic.src = json[i].postImage;
