@@ -35,7 +35,7 @@
     "id": 6,
     "date": "25.10.2023",
     "postText": "This is my grumpy cat",
-    "postImage": "*cat image will be here*",
+    "postImage": "cat.png",
     "like": "*like*",
     "author": "Joonas123"
   },

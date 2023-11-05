@@ -2,14 +2,15 @@
 //Json storage https://api.jsonbin.io/v3/b/654567f154105e766fcb1492
 
 window.onload = function() {
-    //let filepath = '../myjson.json'; --> saab lugeda failist
+    let filepath = '../myjson.json'; //--> saab lugeda failist / JSON file filepath
     //kui lugeda failist tuleb json.record kasutada lihtsalt json!!!!!
-    let filepath = 'https://api.jsonbin.io/v3/b/654567f154105e766fcb1492'
+    //let filepath = 'https://api.jsonbin.io/v3/b/654567f154105e766fcb1492' // URL filepath
             fetch(filepath)
             .then((response) => response.json())
             .then(json => {
                 console.log(json);
-                for (let i = 0; i < json.record.length; i++){//muuta lihtsalt json-iks kui loed failist!
+                //for (let i = 0; i < json.record.length; i++){ //muuta lihtsalt json-iks kui loed failist! / for URL filepath
+                for (let i = 0; i < json.length; i++){
                     let div = document.createElement("div");
                     let postheader = document.createElement("header");
 
@@ -27,7 +28,7 @@ window.onload = function() {
                             likebutton.src = "like-dark.png";
 
                     }});
-                    let postpic = document.createElement("a");
+                    let postpic = document.createElement("img");
                     let postText = document.createElement("a");
 
                     date.className = "post-date";
@@ -36,10 +37,15 @@ window.onload = function() {
                     postpic.className = "post-content";
                     postText.className = "post-title";
 
-                    date.innerText = json.record[i].date;//siin ka
+                   /* date.innerText = json.record[i].date;// use these if reading from URL
                     profilepic.innerText = json.record[i].author;
                     postpic.innerText = json.record[i].postImage;
-                    postText.innerText = json.record[i].postText;
+                    postText.innerText = json.record[i].postText;*/
+
+                    date.innerText = json[i].date;
+                    profilepic.innerText = json[i].author;
+                    postpic.src = json[i].postImage;
+                    postText.innerText = json[i].postText;
 
                     postheader.appendChild(date);
                     postheader.appendChild(profilepic);
