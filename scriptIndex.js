@@ -18,7 +18,15 @@ window.onload = function() {
 
                     let date = document.createElement("a");
                     let profilepic = document.createElement("a");
-                    let likebutton = document.createElement("a");
+                    let likebutton = document.createElement("img");
+                    likebutton.src = "like-dark.png";
+                    likebutton.addEventListener("click", function() {//function that helps to manage like button
+                        if (likebutton.src.endsWith("like-dark.png")) {
+                            likebutton.src = "like.png";
+                          } else {
+                            likebutton.src = "like-dark.png";
+
+                    }});
                     let postpic = document.createElement("a");
                     let postText = document.createElement("a");
 
@@ -30,7 +38,6 @@ window.onload = function() {
 
                     date.innerText = json.record[i].date;//siin ka
                     profilepic.innerText = json.record[i].author;
-                    likebutton.innerText = json.record[i].like;
                     postpic.innerText = json.record[i].postImage;
                     postText.innerText = json.record[i].postText;
 
