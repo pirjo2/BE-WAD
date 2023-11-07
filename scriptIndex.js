@@ -9,7 +9,7 @@ window.onload = function() {
             .then(json => {
                 console.log(json);
                 //for (let i = 0; i < json.record.length; i++){ // for URL filepath
-                for (let i = 0; i < json.length; i++){ // for file filepath
+                for (let i = 0; i < json.length; i++){ // for file filepath  // use other for loop for element : ....
                     let div = document.createElement("div");
                     let postheader = document.createElement("header");
 
